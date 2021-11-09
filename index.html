@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>DIVINAS</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+        <style type="text/css">
+
+            h1{font-family: 'Cinzel', serif; 
+               font-size: 55px;
+               color: white;
+               font-weight: lighter;
+               display: inline;
+               margin-left: 15%;}    
+
+            h2{font-family: 'Cinzel', serif; 
+               font-size: 29px;
+               text-align: center;font-weight: lighter;}
+
+            h3{text-align: center; 
+              font-family: 'Cinzel', serif; 
+              margin-top: 90%; 
+              font-size: 15px;
+              font-weight: lighter;}
+
+            p{font-family: futura-lt-w01-light,sans-serif; 
+              font-size: 15px;}  
+              
+            header{width: 100%; 
+                   height: 70px; 
+                   background-color: rgb(49, 53, 61); 
+                   font-family: futura-lt-w01-light,sans-serif; 
+                   font-size: 14px; 
+                   color: white; 
+                   display: flex; 
+                   justify-content: space-between;
+                   position: fixed;
+                   margin-top: 0px;}
+
+            #fixo{width: 64px;
+                  height: 64px;
+                  background-color: rgb(252, 188, 178);
+                  position: fixed;
+                  bottom: 20px;
+                  right: 20px;
+                  border-radius: 8px;
+                  padding-top: 0.5%;}
+
+            #section1{background-image: url(img/capa.webp); 
+                      width: 100%; 
+                      height: 488px; 
+                      background-size: 100%; 
+                      padding-top: 10%;}      
+                   
+            #primeiro{height: 46px; 
+                      width: 18%; 
+                      background-color:  rgb(252, 188, 178) ; 
+                      margin-top: 4%; 
+                      margin-left: 15%;
+                      font-family: futura-lt-w01-light,sans-serif}       
+
+            #divina{width: 12%; 
+                    height: 70px; 
+                    display: flex; 
+                    justify-content: center; 
+                    align-items: center; 
+                 
+                    font-size: 26px; 
+                    justify-content: space-around;}
+                    
+            #opcoes{display: flex; 
+                    height: 70px; 
+                    width: 39%; 
+                    justify-content: space-around; 
+                    align-items: center;
+                    margin-right: 2%;}
+                    
+            #img{align-self: flex-start; 
+                 margin-top: 2.5%;} 
+
+            #saiba{background-image: url(img/capa3.webp); 
+                   background-size: 100%; 
+                   width: 100%; 
+                   height: 440px; 
+                   display: flex; 
+                   justify-content: center; 
+                   align-items: center; 
+                   text-align: center;}    
+                   
+            #saiba2{width: 90%; 
+                    height: 320px; 
+                    background-color: rgba(49, 53, 61, 0.94);}
+                    
+            #h2{color: rgb(252, 188, 178); 
+                margin-top: 4%;
+                font-weight: lighter;
+                letter-spacing: 3px;}
+                
+                
+            #section3{width: 100%; 
+                      height: 582px; 
+                      display: flex; 
+                      justify-content: center; 
+                      align-items: center; 
+                      font-family: 'Cinzel', serif;
+                      background-image: url(img/mulheres.png);
+                      background-attachment: fixed;
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                      background-position-x: -78px;}
+                      
+            .apliques{width: 30%; 
+                      height: 381px; 
+                      background-color: rgb(48, 47, 52); 
+                      color: white; 
+                      display: flex; 
+                      justify-content: center; 
+                      align-items: center; 
+                      flex-direction: column;}
+
+            #cilios{ background-color:  #fcbcb2;
+                     color: #31353d;}          
+                      
+            .botoes{height: 46PX; 
+                    width: 40%; 
+                    background-color:  rgb(252, 188, 178); 
+                    margin-top: 8%;}
+                    
+            .extra{color: white;
+                   background-color: #31353d;} 
+                   
+            #section4{width: 100%; 
+                      height: 650px;}
+            #sec{margin-top: 4%; 
+                 margin-bottom: 4%; 
+                 font-weight: lighter; 
+                 letter-spacing: 5px;}
+                 
+            #div{width: 100%; 
+                 height: 330px; 
+                 display: flex; 
+                 justify-content: space-around;}     
+                      
+            .produtos{ background-size: 100%; 
+               height: 330px; 
+               width: 18%;
+               background-repeat: no-repeat;}
+               
+            #imagem1{background-image: url(img/1.webp);}
+            #imagem2{background-image: url(img/2.webp);}
+            #imagem3{background-image: url(img/3.webp);}
+            #imagem4{background-image: url(img/4.webp);}
+            
+            .button{height: 32px; 
+                    width: 40%; 
+                    background-color: #cf897e; 
+                    color: white;}
+
+            .centro{text-align: center;
+                    color: rgb(252, 188, 178);} 
+                    
+            #tudo{height: 46px; 
+                  width: 15%; 
+                  background-color:  rgb(252, 188, 178) ; 
+                  margin-top: 4%; 
+                  margin-left: 42.5%;}
+                  
+            #section5{width: 100%; 
+                      height: 800px; 
+                      background-color: rgb(48, 47, 52); 
+                      padding-top: 4%;} 
+                              
+            .detalhe{margin-left: 1.5%}
+            #detalhe2{ margin-top: 3%; 
+                       color: white;}
+            #detalhe3{color: white;}
+            #detalhe4{margin-top: 4%;  
+                      font-size: 20px;}
+            .detalhe5{margin-top: 0px;}
+            #detalhe6{width: 30%; 
+                      margin-left: 20%;}
+            #detalhe7{width: 30%; 
+                      margin-left: 4%;}                               
+
+            footer{background-color: #31353d; 
+                   padding-top: 3%;}
+                   
+            #divinas{color: rgb(252, 188, 178); 
+                     margin-bottom: 4.5%;}
+
+            #assine{height: 46px; 
+                    width: 8%; 
+                    background-color:  rgb(252, 188, 178) ;
+                    display: inline;} 
+                          
+            #visto{color: rgb(252, 188, 178) ; 
+                   margin-bottom: 3%; 
+                   margin-top: 6%;}
+                   
+            #promocao{color: white; 
+                      margin-bottom: 5%;}
+                      
+            #section6{display: flex;  
+                      color: white; 
+                      margin-left: 5%; 
+                      padding-bottom: 6%;}
+                      
+            #section7{width: 100%; 
+                      height: 100px; 
+                      background-color: rgb(252, 188, 178); 
+                      text-align: center; 
+                      padding-top: 1%;
+                      color: rgb(49, 53, 61);
+                      letter-spacing: 1px;}
+
+
+            input{width: 35%; 
+                  height: 40px; 
+                  margin-left: 32%; 
+                  margin-bottom: 3%; 
+                  background-color: #31353d; 
+                  border-bottom: 1px solid white; 
+                  border-top: none; 
+                  border-left: none; 
+                  border-right: none;}          
+                      
+            input::placeholder{color: rgb(252, 188, 178);   
+                               font-family: futura-lt-w01-light,sans-serif}          
+                 
+                 
+            button{font-family: futura-lt-w01-light,sans-serif;
+                   font-size: 15px;
+                   border: none;}
+                   
+        </style>
+    </head>
+
+    <body>
+        <header >
+
+            <div id="divina">
+
+                <img src="img/1.png" width="24%" style="margin-left: 15%;" >
+                <span>DIVINAS</span>
+            </div>
+
+            <div id="opcoes">
+
+                <p>Comprar Tudo</p>
+                <p>Apliques de Cabelo</p>
+                <p>Cílios</p>
+                <p>Acessosórios</p>
+                <p>Sobre</p>
+                <p>Contato</p>
+                <img src="img/3.png" width="9%" id="img" />
+            </div>
+        </header>
+
+        <main>
+
+            <button id="fixo"><img src="img/conversa.png" width="80%" ></button>
+
+            <section id="section1">
+
+                    <h1>BELEZA.</h1> <br />
+                    <h1>GLAMOUR.</h1> <br />
+                    <h1>CONFIANÇA.</h1> <br />
+                    <button id="primeiro">COMPRAR APLIQUES DE CABELO</button>
+            </section>
+
+            <section id="saiba"> 
+
+                <div id="saiba2">
+
+                    <h2 id="h2">efeito natural e de longa duração</h2>
+                    <p id="detalhe2">Sou um parágrafo. Clique para editar e adicionar o seu texto. É fácil! Basta clicar em </p>
+                    <p id="detalhe3">"Editar Texto" ou clicar duas vezes para adicionar o seu conteúdo e trocar fontes.</p>
+                    <h3 class="detalhe4" style="color: white;">SAIBA MAIS</h3>
+                </div>
+            </section>
+
+            <section id="section3" >
+
+                <div class="apliques">
+                    <h2>APLIQUES DE</h2>
+                    <h2 class="detalhe5">CABELO NATURAL</h2>
+                    <button class="botoes">COMPRE JÁ</button>
+
+                </div>
+                <div class="apliques" id="cilios">
+
+                    <h2>CÍLIOS</h2>
+                    <h2 class="detalhe5">PERFEITOS</h2>
+                    <button class="botoes extra">COMPRE JÁ</button>
+                </div>
+            </section>
+
+            <section id="section4">
+
+                <h2 id="sec">MAIS VENDIDOS</h2>
+
+                <div id="div">
+
+                    <div id="imagem1" class="produtos">
+
+                        <button class="button">Mais Vendido</button>
+                        <h3>OMBRE ROSADO</h3>
+                        <P class="centro">R$ 150,00</P>       
+                    </div>
+
+                    <div  id="imagem2" class="produtos">
+
+                        <button class="button">Mais Vendido</button>
+                        <h3>CARTÃO PRESENTE R$50,00</h3>
+                        <P class="centro">R$ 50,00</P>
+                    </div>
+
+                    <div id="imagem3" class="produtos">
+
+                        <button class="button">Mais Vendido</button>
+                        <h3>CÍLIOS PRIME - ALTO VOLUME</h3>
+                        <P class="centro">R$ 25,00</P>
+                    </div>
+
+                    <div  id="imagem4" class="produtos">
+
+                        <button class="button">Mais Vendido</button>
+                        <h3>APLICADOR DE CÍLIOS</h3>
+                        <P class="centro">R$ 10,00</P>
+                    </div>
+                </div>
+
+                <button id="tudo">COMPRAR TUDO</button>
+            </section>
+
+            <section id="section5">
+
+                <h2 id="divinas">#DIVINAS</h2>
+                
+                <div>
+
+                    <img src="img/11.jpg" width="19.7%" />
+                    <img src="img/22.jpg" width="19.7%" />
+                    <img src="img/33.jpg" width="19.7%" />
+                    <img src="img/44.jpg" width="19.7%" />
+                    <img src="img/55.jpg" width="19.7%" />
+                </div>
+
+                <h2 id="visto">VISTO EM</h2>
+
+                <div>
+
+                    <img src="img/111.webp"  width="7%" style="margin-left: 6%;"/>
+                    <img src="img/222.webp"  width="8%" style="margin-left: 12%;"/>
+                    <img src="img/333.webp"  width="7%" style="margin-left: 12%;"/>
+                    <img src="img/444.webp"  width="6%" style="margin-left: 12%;"/>
+                    <img src="img/555.webp"  width="8%" style="margin-left: 12%;"/>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+
+            <h2 id="promocao" style="font-size: 24px;">SAIBA TUDO  SOBRE AS MELHORES NOVIDADES E PROMOÇÕES</h2>
+
+            <input type="text" placeholder="EMAIL" >
+
+            <button id="assine">ASSINE</button>
+
+            <section id="section6">
+
+                <div id="detalhe6">
+
+                    <p>Página Inicial</p>
+                    <p>Comprar Tudo</p>
+                    <p>Apliques de Cabelo</p>
+                    <p>Cílios</p>
+                    <p>Acessosórios</p>
+                </div>
+
+                <div id="detalhe7">
+
+                    <p>Sobre Nós</p>
+                    <p>Contato</p>
+                    <p>Envio e Retorno</p>
+                    <p>Política da loja</p>
+                    <p>Perguntas Frequentes</p>
+                </div>
+
+                <div style="margin-left: 6%;">
+
+                    <div>
+
+                        <img src="img/final.png" width="50%">
+                    </div>
+                    <div style="margin-top: 9%;">
+
+                        <img src="img/insta.webp" width="4.3%">
+                        <img src="img/you.webp" width="4.3%" class="detalhe" />
+                        <img src="img/face.webp" width="4.3%" class="detalhe" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="section7">
+
+                <p>© 2023 por Divinas. Orgulhosamente criado com Wix.com <br >Divinas Ltda. - CPF/CNPJ: 12.345.678/0000-01 - Av. Bernardino de Campos, 98 - São <br >Paulo, SP 12345-678 - info@meusite.com - Tel: (11) 3456-7890</p>
+            </section>
+
+        </footer>
+
+    </body>
+
+</html>
